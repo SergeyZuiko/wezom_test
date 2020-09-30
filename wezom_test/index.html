@@ -14,45 +14,36 @@
 <body>
 
   <header class="header">
-      <div class="header__wrapper">
-        <nav class="header__navigation">
-
-          <ul class="header__container">
-            <li class="header__item">
-              <a href="#!" class="header__link">Главная</a>
-            </li>
-            <li class="header__item">
-              <a href="#!" class="header__link">О компании</a>
-            </li>
-            <li class="header__item">
-              <a href="#!" class="header__link">Ссылка 1</a>
-            </li>
-            <li class="header__item">
-              <a href="#!" class="header__link">Ссылка 2</a>
-            </li>
-            <li class="header__item">
-              <a href="#!" class="header__link">Ссылка 3</a>
-            </li>
-          </ul>
-
-        </nav>
-
-        <div class="header__login">
-          <img src="./images/svg/Vector_Smart_Object.svg" alt="login" class="header__login_item">  
-          <button class="header__login_button">Вход</button>
-        </div> 
-
-      </div>
+      <nav class="header__navigation">
+        <ul class="header__container">
+          <li class="header__item">
+            <a href="#!" class="header__link">Главная</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">О компании</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">Ссылка 1</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">Ссылка 2</a>
+          </li>
+          <li class="header__item">
+            <a href="#!" class="header__link">Ссылка 3</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__login_button">Вход</button>
 
   </header>
   
   <main>
 
   <section class="callback">
-    <div class="callback__wrapper">
-        <div class="callback__logo">
-          <img src="./images/Test.png" alt="test" class="callback__logo_img">
-        </div>
+      <div class="callback__logo">
+        <img src="./images/Test.png" alt="test" class="callback__logo_img">
+      </div>
+      <div class="callback__wrapper">
         <div class="callback__form">
           <div class="callback__number-wrap">
             <a href="tel:+3809817000740" class="callback__number callback__number-1">+3809817000740</a>
@@ -82,127 +73,124 @@
             <div class="callback__basket_text">Корзина</div>
           </div>
         </div>
-    </div>
+      </div>
   </section>
   
   <section class="functional">
-    <div class="functional__wrap">
-      <div class="functional__menu">
-        <div class="functional__menu_header">
-          <div class="functional__menu_logo">
-            <div class="functional__menu_lines">
-              <div class="functional__menu_line functional__menu_line-1"></div>
-              <div class="functional__menu_line functional__menu_line-2"></div>
-              <div class="functional__menu_line functional__menu_line-3"></div>
-            </div>
-          </div>
-          <div class="functional__menu_caption">
-            <div class="functional__menu_content">Меню</div>
+    <div class="functional__menu">
+      <div class="functional__menu_header">
+        <div class="functional__menu_logo">
+          <div class="functional__menu_lines">
+            <div class="functional__menu_line functional__menu_line-1"></div>
+            <div class="functional__menu_line functional__menu_line-2"></div>
+            <div class="functional__menu_line functional__menu_line-3"></div>
           </div>
         </div>
-        <div class="functional__menu_links">
-          <div class="functional__menu_link">Ссылка 1</div>
-          <div class="functional__menu_link">Ссылка 2</div>
-          <div class="functional__menu_link">Ссылка 3</div>
-          <div class="functional__menu_link">Ссылка 4</div>
-          <div class="functional__menu_link">Ссылка 5</div>
-          <div class="functional__menu_link">Ссылка 6</div>
-          <div class="functional__menu_link functional__menu_link-7">Ссылка 7</div>
+        <div class="functional__menu_caption">
+          <div class="functional__menu_content">Меню</div>
         </div>
       </div>
-      <div class="functional__container">
-        <div class="functional__search">
-          <input type="text" placeholder="Поиск по сайту" class="functional__search_input">
-          <div class="functional__search_box">
-            <hr class="functional__search_line">
+      <div class="functional__menu_links">
+        <div class="functional__menu_link">Ссылка 1</div>
+        <div class="functional__menu_link">Ссылка 2</div>
+        <div class="functional__menu_link">Ссылка 3</div>
+        <div class="functional__menu_link">Ссылка 4</div>
+        <div class="functional__menu_link">Ссылка 5</div>
+        <div class="functional__menu_link">Ссылка 6</div>
+        <div class="functional__menu_link functional__menu_link-7">Ссылка 7</div>
+      </div>
+    </div>
+    <div class="functional__container">
+      <!-- <div class="functional__search"> -->
+      <form action="" class="functional__search">
+        <input type="text" placeholder="Поиск по сайту" class="functional__search_input">
+        <div class="functional__search_box">
+          <!-- <hr class="functional__search_line"> -->
+        </div>
+        <!-- <div class="functional__select_wrap"> -->
+          <select name="select" id="select" class="functional__search_select">
+            <option value="all" class="functional__search_option">Все категории</option>
+            <option value="1" class="functional__search_option">Ссылка 1</option>
+            <option value="2" class="functional__search_option">Ссылка 2</option>
+            <option value="3" class="functional__search_option">Ссылка 3</option>
+            <option value="4" class="functional__search_option">Ссылка 4</option>
+            <option value="5" class="functional__search_option">Ссылка 5</option>
+          </select>
+        <!-- </div> -->
+        <button type="submit" class="functional__search_button">Поиск</button>
+      </form>
+      <!-- </div> -->
+      <div class="functional__filter">
+
+        <div class="functional__filter_header">
+          <div class="functional__filter_container">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="17" viewBox="0 0 40 17" class="functional__filter_image"><g><g><image width="40" height="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAARCAYAAACvi+4IAAAEA0lEQVRIS6WWa4hVdRTFf+s/Xqd8ZfmoxoogEy1KK5QIJCqKKOiBTXPPmYdTH4vKoiR6OdKLsodUVOiXa47nXCMjShL8UKNIkI2oFAQpUVGBhDNXnGJe9+z4X88M1/GMM6P/r3evtdfZe+29rxjnC8PwfDN7SGazkK7BbBHSbGBmStGD9DNmvyB9C3weRVH3OOlHDdPpCBobG2dQLj9gUgDcCrhxJ5T+w+xjpFfORmimwKampvlWLm8yWAZMGiFqD9JnLkkODpgdyeVypSRJtmN2PWYFnPtTZisMFqW4f5CejKJoy7g/riqwIjCfz98k6QYHNQksETQBNWncMaT3MVsFTHNJsqR969aD1cmCIHhM8B7QGcXxUkBBENQLXgOuqMRKO4HnoijaNxGhnuhZwesZoEPAlUAfUjNmnwKD06ZPn7Jhw4aBEQIvFPxdsYC0IIoij6W1tfWcgb6+FwxWA7kUs9fgS5ckO/86cmR/R0fH4OkEKwyCY8AMYLfgOPCvzD5qLxZ3NQbB1wZ3AuW0ol0GX2URCm4H6oADBidVWGYzce46zC4bgfW8RzH7FdjmoHP+woW729rakqE4L9CqQYLvcrW1dxcKhZIfkiRJNgvumUhbzipW+iO1QsWzpwiskJs9ExWLbw0lCoOgA7gZ+EKwK0uAnfj9PqQfZBaNJdLMZNJFgnlp7FSkOzCbUpEAq+M4XlctsAvpt8o0Ss9HUeQN7gfockl7PJEzu6W9WPRiT3mNQbDK4F2DTXEct44lsIp7aqlUOrxjx46+MAh+Aq4ewhosz6rg8ZpJkxYn/f2zE+c2ChYPJzN7OSoW15z4wJPfRASGYbgMs43AtSlLj8GrwF2C5VX5tnuB/emEHUD6UdI6M+vFzK+D6YA3rJ/a2gpQWhtFUduZCmxoaFhQ45znnlbhlnyuSlsx+wBpCTAXWAD0KAzDImYNfp0YbJH0DUlSj3QvsM/gbeBiTyhYC/TKuWXlctlP/PBz8DDSi34aE7OnR2uxpHcE9wu+N2m9mdU5OM/gJc9dkyRLB51zSjeBWlpaZg0ODGxLh2CI11fNySxv0ifAIYN2wSPApePx15gx0oOYtQOHDQqCx4FLRuC6hk6dr+RtwArMbgSuAiYjrcTMe2OOzFaavygwx5c+3Y3VfJ7L28BbZniPZQj1tnEGzYI3gAsMVgo+BGaN4N6beYvDIPBtfQr4PTF7VFKPfAuhBeieXFtbVygUesesUkZAGATrgSdG4T7aXSrN8xM9BM0UWF9fPyeXy3VmbH5v5JaoWNx8JuI8prm5eW55cLAzyyq+qnEc+7YPv1H/buXz+TonvQn4YZmanrA1cRxnnrqJCK5wO7cOM899LrDfYG0W9//4fq7uwRtLAgAAAABJRU5ErkJggg=="/></g></g></svg>
+            <a href="!#" class="functional__filter_link">Ссылка 1</a>
           </div>
-          <div class="functional__select_wrap">
-            <select name="select" id="select" class="functional__search_select">
-              <option value="all" class="functional__search_option">Все категории</option>
-              <option value="1" class="functional__search_option">Ссылка 1</option>
-              <option value="2" class="functional__search_option">Ссылка 2</option>
-              <option value="3" class="functional__search_option">Ссылка 3</option>
-              <option value="4" class="functional__search_option">Ссылка 4</option>
-              <option value="5" class="functional__search_option">Ссылка 5</option>
+          <div class="functional__filter_container">
+            <img src="./images/svg/Vector_Smart_Object4.svg" alt="" class="functional__filter_image">
+            <a href="!#" class="functional__filter_link">Ссылка 2</a>
+          </div>
+          <div class="functional__filter_container">
+            <img src="./images/svg/Vector_Smart_Object5.svg" alt="" class="functional__filter_image">
+            <a href="!#" class="functional__filter_link">Ссылка 3</a>
+          </div>
+          <div class="functional__filter_container">
+            <img src="./images/svg/Vector_Smart_Object6.svg" alt="" class="functional__filter_image" fill="#fff">
+            <a href="!#" class="functional__filter_link">Ссылка 4</a>
+          </div>
+          <div class="functional__filter_container">
+            <img src="./images/svg/Vector_Smart_Object7.svg" alt="" class="functional__filter_image">
+            <a href="!#" class="functional__filter_link">Ссылка 5</a>
+          </div>
+        </div>
+
+        <div class="functional__filter_box">
+          <div class="functional__filter_tabs">
+            <button type="sumbit" class="functional__filter_tab functional__filter_tab-1">Tab 1</button>
+            <button type="sumbit" class="functional__filter_tab functional__filter_tab-2">Tab 2</button>
+          </div>
+          <div class="functional__filter_selects">
+            <select name="Select 1" id="select-1" class="functional__filter_select" aria-placeholder="Select 1">
+              <option value="Option 1" class="functional__filter_option">Select 1</option>
+            </select>
+            <select name="Select 2" id="select-2" class="functional__filter_select">
+              <option value="Option 2" class="functional__filter_option">Select 2</option>
+            </select>
+            <select name="Select 3" id="select-3" class="functional__filter_select">
+              <option value="Option 3" class="functional__filter_option">Select 3</option>
+            </select>
+            <select name="Select 4" id="select-4" class="functional__filter_select">
+              <option value="Option 4" class="functional__filter_option">Select 4</option>
             </select>
           </div>
-          <button class="functional__search_button">Поиск</button>
-        </div>
-        <div class="functional__filter">
-
-          <div class="functional__filter_header">
-            <div class="functional__filter_container">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="17" viewBox="0 0 40 17" class="functional__filter_image"><g><g><image width="40" height="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAARCAYAAACvi+4IAAAEA0lEQVRIS6WWa4hVdRTFf+s/Xqd8ZfmoxoogEy1KK5QIJCqKKOiBTXPPmYdTH4vKoiR6OdKLsodUVOiXa47nXCMjShL8UKNIkI2oFAQpUVGBhDNXnGJe9+z4X88M1/GMM6P/r3evtdfZe+29rxjnC8PwfDN7SGazkK7BbBHSbGBmStGD9DNmvyB9C3weRVH3OOlHDdPpCBobG2dQLj9gUgDcCrhxJ5T+w+xjpFfORmimwKampvlWLm8yWAZMGiFqD9JnLkkODpgdyeVypSRJtmN2PWYFnPtTZisMFqW4f5CejKJoy7g/riqwIjCfz98k6QYHNQksETQBNWncMaT3MVsFTHNJsqR969aD1cmCIHhM8B7QGcXxUkBBENQLXgOuqMRKO4HnoijaNxGhnuhZwesZoEPAlUAfUjNmnwKD06ZPn7Jhw4aBEQIvFPxdsYC0IIoij6W1tfWcgb6+FwxWA7kUs9fgS5ckO/86cmR/R0fH4OkEKwyCY8AMYLfgOPCvzD5qLxZ3NQbB1wZ3AuW0ol0GX2URCm4H6oADBidVWGYzce46zC4bgfW8RzH7FdjmoHP+woW729rakqE4L9CqQYLvcrW1dxcKhZIfkiRJNgvumUhbzipW+iO1QsWzpwiskJs9ExWLbw0lCoOgA7gZ+EKwK0uAnfj9PqQfZBaNJdLMZNJFgnlp7FSkOzCbUpEAq+M4XlctsAvpt8o0Ss9HUeQN7gfockl7PJEzu6W9WPRiT3mNQbDK4F2DTXEct44lsIp7aqlUOrxjx46+MAh+Aq4ewhosz6rg8ZpJkxYn/f2zE+c2ChYPJzN7OSoW15z4wJPfRASGYbgMs43AtSlLj8GrwF2C5VX5tnuB/emEHUD6UdI6M+vFzK+D6YA3rJ/a2gpQWhtFUduZCmxoaFhQ45znnlbhlnyuSlsx+wBpCTAXWAD0KAzDImYNfp0YbJH0DUlSj3QvsM/gbeBiTyhYC/TKuWXlctlP/PBz8DDSi34aE7OnR2uxpHcE9wu+N2m9mdU5OM/gJc9dkyRLB51zSjeBWlpaZg0ODGxLh2CI11fNySxv0ifAIYN2wSPApePx15gx0oOYtQOHDQqCx4FLRuC6hk6dr+RtwArMbgSuAiYjrcTMe2OOzFaavygwx5c+3Y3VfJ7L28BbZniPZQj1tnEGzYI3gAsMVgo+BGaN4N6beYvDIPBtfQr4PTF7VFKPfAuhBeieXFtbVygUesesUkZAGATrgSdG4T7aXSrN8xM9BM0UWF9fPyeXy3VmbH5v5JaoWNx8JuI8prm5eW55cLAzyyq+qnEc+7YPv1H/buXz+TonvQn4YZmanrA1cRxnnrqJCK5wO7cOM899LrDfYG0W9//4fq7uwRtLAgAAAABJRU5ErkJggg=="/></g></g></svg>
-              <a href="!#" class="functional__filter_link">Ссылка 1</a>
-            </div>
-            <div class="functional__filter_container">
-              <img src="./images/svg/Vector_Smart_Object4.svg" alt="" class="functional__filter_image">
-              <a href="!#" class="functional__filter_link">Ссылка 2</a>
-            </div>
-            <div class="functional__filter_container">
-              <img src="./images/svg/Vector_Smart_Object5.svg" alt="" class="functional__filter_image">
-              <a href="!#" class="functional__filter_link">Ссылка 3</a>
-            </div>
-            <div class="functional__filter_container">
-              <img src="./images/svg/Vector_Smart_Object6.svg" alt="" class="functional__filter_image" fill="#fff">
-              <a href="!#" class="functional__filter_link">Ссылка 4</a>
-            </div>
-            <div class="functional__filter_container">
-              <img src="./images/svg/Vector_Smart_Object7.svg" alt="" class="functional__filter_image">
-              <a href="!#" class="functional__filter_link">Ссылка 5</a>
+          <div class="functional__filter_price">
+            <select name="Select 5" id="select-5" class="functional__filter_select">
+              <option value="Option 5">Option 5</option>
+            </select>
+            <div class="functional__filter_range">
+              <p class="functional_filter__amount">Цена:</p>
+              <input type="text" class="functional__filter_compare" value="" placeholder="50" id="amount_50">
+              <input type="text" class="functional__filter_compare" value="" placeholder="25000">
             </div>
           </div>
-
-          <div class="functional__filter_box">
-            <div class="functional__filter_tabs">
-              <button type="sumbit" class="functional__filter_tab functional__filter_tab-1">Tab 1</button>
-              <button type="sumbit" class="functional__filter_tab functional__filter_tab-2">Tab 2</button>
-            </div>
-            <div class="functional__filter_selects">
-              <select name="Select 1" id="select-1" class="functional__filter_select" aria-placeholder="Select 1">
-                <option value="Option 1" class="functional__filter_option">Select 1</option>
-              </select>
-              <select name="Select 2" id="select-2" class="functional__filter_select">
-                <option value="Option 2" class="functional__filter_option">Select 2</option>
-              </select>
-              <select name="Select 3" id="select-3" class="functional__filter_select">
-                <option value="Option 3" class="functional__filter_option">Select 3</option>
-              </select>
-              <select name="Select 4" id="select-4" class="functional__filter_select">
-                <option value="Option 4" class="functional__filter_option">Select 4</option>
-              </select>
-            </div>
-            <div class="functional__filter_price">
-              <select name="Select 5" id="select-5" class="functional__filter_select">
-                <option value="Option 5">Option 5</option>
-              </select>
-              <div class="functional__filter_range">
-                <p class="functional_filter__amount">Цена:</p>
-                <input type="text" class="functional__filter_compare" value="" placeholder="50" id="amount_50">
-                <input type="text" class="functional__filter_compare" value="" placeholder="25000">
+          <div class="functional__filter_buttons">
+            <button class="functional__filter_clean">
+              <div class="functional__filter_cross">
+                <img src="./images/svg/×.svg" alt="" class="functional__filter_cross-image">
               </div>
-            </div>
-            <div class="functional__filter_buttons">
-              <button class="functional__filter_clean">
-                <div class="functional__filter_cross">
-                  <img src="./images/svg/×.svg" alt="" class="functional__filter_cross-image">
-                </div>
-                Очистить фильтр
-              </button>
-              <button class="functional__filter_use">
-                Применить фильтр
-              </button>
-            </div>
+              Очистить фильтр
+            </button>
+            <button class="functional__filter_use">
+              Применить фильтр
+            </button>
           </div>
-
         </div>
       </div>
     </div>
   </section>
 
   <section class="cards">
-    <div class="cards__wrap">
-
       <div class="cards__header">
         <div class="cards__caption">Карточки товаров</div>
         <div class="cards__container">
@@ -210,9 +198,7 @@
           <img src="./images/svg/Shape_22.svg" alt="arrow" class="cards__arrow">
         </div>
       </div>
-
       <div class="cards__items">
-
         <div class="cards__item">
           <div class="cards__mark">Mark</div>
           <p class="cards__text">Антифриз Fosser Antifreeze <br> FA 12 Readymix 1 л Concentrat, Germany</p>
@@ -266,7 +252,6 @@
             </div>
           </div>
         </div>
-         
         <div class="cards__item">
           <div class="cards__mark">Mark</div>
           <p class="cards__text">Антифриз Fosser Antifreeze <br> FA 12 Readymix 1 л Concentrat, Germany</p>
@@ -317,7 +302,6 @@
             </div>
           </div>
         </div>
-        
         <div class="cards__item">
           <div class="cards__mark">Mark</div>
           <p class="cards__text">Антифриз Fosser Antifreeze <br> FA 12 Readymix 1 л Concentrat, Germany</p>
@@ -369,7 +353,6 @@
             </div>
           </div>
         </div>
-
         <div class="cards__item">
           <div class="cards__mark">Mark</div>
           <p class="cards__text">Антифриз Fosser Antifreeze</p>
@@ -421,18 +404,12 @@
             </div>
           </div>
         </div>
-
       </div>
-    </div>
     </section>
-
 </main>
 
 <footer class="footer">
-  <div class="footer__wrapper">
-
     <section class="footer__block">
-      
       <div class="footer__block_wrap">
         <h4 class="footer__block_caption">Блок 1</h4>
         <div class="footer__mailing">
@@ -510,7 +487,6 @@
         
       </div>
     </section>  
-  </div>
 </footer>
 
   <script src="https://kit.fontawesome.com/58b36126d6.js" crossorigin="anonymous"></script>
